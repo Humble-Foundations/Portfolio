@@ -6,6 +6,20 @@
 
     <title>Web Development 2</title>
 
+    <style type = "text/css">
+
+    table
+    {
+       border: 1px solid black;
+    }
+
+    td
+    {
+      border: 1px solid black;
+    }
+
+    </style>
+
   </head>
 
   <body>
@@ -47,9 +61,53 @@
 
         <label for="Month">Birthday</label>
         <select name="Month">
-
+          <option value="0" selected disabled>Month</option>
+          <option value="January">January</option>
+          <option value="February">February</option>
+          <option value="March">March</option>
+          <option value="April">April</option>
+          <option value="May">May</option>
+          <option value="June">June</option>
+          <option value="July">July</option>
+          <option value="August">August</option>
+          <option value="September">September</option>
+          <option value="October">October</option>
+          <option value="November">November</option>
+          <option value="December">December</option>
         </select>
+
+        <label for="agree">I agree to these terms</label>
+        <input type="checkbox" name="agree">
+        <button type="" name="button">Submit</button>
       </div>
+
+      <div>
+
+        <table>
+          <thead>                                   <!tableheaders>
+            <th>Dog</th>
+            <th>Name</th>
+            <th>Breed</th>
+          </thead>
+          <tr>                                       <!tablerow>
+            <td>Fred</td>                           <!tabledata>
+            <td>Stoner</td>
+            <td>Pitbull</td>
+
+            <tr>
+            <td>Fanky</td>
+            <td>Papa</td>
+            <td>Husky</td>
+
+            <tr>
+            <td>Jett</td>
+            <td>Onyx</td>
+            <td>German Sheperd</td>
+
+          </tr>
+        </table>
+      </div>
+
       </form>
     </div>
 
