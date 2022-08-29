@@ -1,0 +1,12 @@
+ol
+{
+  width: 100px;
+  padding: 10px;
+  margin: 100px auto;
+  background: black;
+  color: white;
+
+/* creating a scroll bar option */
+
+  overflow: scroll;
+}
