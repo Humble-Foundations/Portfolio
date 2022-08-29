@@ -1,14 +1,50 @@
+/* Learning how to make slelections div selects all div
+  so basically css depends on how well you label your tags in the html file
+  call the tag you want style it how you want and voila */
 div
 {
   background: pink;
   color: white;
 }
 
+/* selecting specific quote */
 #quote
 {
   font-family: "Times New Roman" , "gill sans";
   color:black;
 }
+
+/* a single attribute  */
 .movie
 {
-  color:ora}
+  color:orange;
+  background-color: steelblue;
+}
+
+/* targeting a specific ID */
+span#author
+{
+   text-transform: uppercase;
+}
+
+/* selecting lists */
+
+#skills ol li
+{
+  color:yellow
+  background-color: green;
+
+}
+
+/* selecting an unordered list */
+#skills ul li
+{
+  background-color: grey;
+  color: teal;
+}
+
+/* paragraph with ids */
+p[id]
+{
+  
+}
