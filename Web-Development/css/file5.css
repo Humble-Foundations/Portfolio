@@ -1,0 +1,63 @@
+/* active visted hover are a few pseudo codes that can be used */
+a:hover
+{
+  color: pink;
+  background: black;
+}
+
+
+#lorem
+{
+  word-spacing: 10px;
+}
+
+#para-2
+{
+  letter-spacing: 10px;
+
+}
+
+
+footer
+{
+  clear: both;
+  background-color: black;
+  color: Orange;
+
+}
+
+ul
+{
+  list-style: lower-greek;
+}
+
+ol
+{
+  width: 350px;
+  height: 350px;
+  overflow: scroll;
+}
+li{
+  /* creatingalternating list colors */
+  background-color: #f7f7f7;
+
+  margin:100px auto;
+
+}
+
+#para-1:after
+{
+  content: "KingKonceptz";
+}
+
+p:first-line
+{
+  /* first line last line first letter */
+  text-transform: uppercase;
+}
+p:hover
+{
+  background:black;
+   color: gray;
+   cursor:zoom-in;
+}
