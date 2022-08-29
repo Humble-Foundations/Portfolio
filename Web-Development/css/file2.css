@@ -1,4 +1,5 @@
-
+/* this was to show the different font styles  there is a lot go to w3schols to get
+of the styles */
 #lorem
 {
   background: black;
@@ -8,4 +9,9 @@
   padding: 13px 13px 13px 20px;
   margin: 10px auto;
 
+}
+
+#normal
+{
+  font-style: normal;
 }
