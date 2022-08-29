@@ -66,12 +66,14 @@ p:hover
 }
 #para-3
 {
-  /* box shadow */
+  /* box shadow and text decorations*/
   background: #f7f7f7;
   color: black;
   width: 411px;
   margin: 0 auto;
   box-shadow: 0 0 5px rgba(255, 0, 0, 0.5);
 
+text-decoration: underline;
+visibility: collapse;
 
 }
