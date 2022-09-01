@@ -17,6 +17,15 @@ a:hover
 
 }
 
+body
+{
+  /* gradient */
+  /* background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12); */
+
+  background-image: url(https://d17fnq9dkz9hgj.cloudfront.net/uploads/2018/04/Sphynx_Black.jpg);
+
+  background-size: 500px;
+}
 
 footer
 {
@@ -76,4 +85,11 @@ p:hover
 text-decoration: underline;
 visibility: collapse;
 
+}
+
+
+#white-space-pre
+{
+  white-space: pre;
+  direction: rtl;
 }
